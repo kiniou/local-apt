@@ -37,5 +37,5 @@ deb [trusted=yes] file:/var/lib/local-apt/debian/stretch ./
 ## Example 1: force debian/stretch repository build
 
 ```
-debrepo build -f debian/stretch
+local-apt build -f debian/stretch
 ```
